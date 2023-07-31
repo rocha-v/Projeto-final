@@ -1,0 +1,40 @@
+.formulario{
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    color: #CAFFCC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario label{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.formulario input{
+    height: 40px;
+}
+
+.formulario input, .formulario textarea{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #CAFFCC;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.formulario input:focus, .formulario textarea:focus{
+    outline: 1px solid #CAFFCC;
+    
+}
+
+.formulario button{
+    background-color: #CAFFCC;
+    color: #1E1E1E;;
+    border: none;
+    border-radius: 8px;
+    font-family: Krona One;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 14px 206px 14px 207px;
+}
