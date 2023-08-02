@@ -1,5 +1,5 @@
 .formulario{
-    width: 512px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     color: #CAFFCC;
@@ -7,20 +7,21 @@
 }
 
 .formulario label{
-    font-size: 20px;
-    margin-bottom: 8px;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .formulario input{
-    height: 40px;
+    height: 2.5rem;
 }
 
 .formulario input, .formulario textarea{
     background-color: transparent;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     border: 1px solid #CAFFCC;
-    padding: 16px;
-    margin-bottom: 24px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: #F6F6F6;
 }
 
 .formulario input:focus, .formulario textarea:focus{
@@ -32,9 +33,15 @@
     background-color: #CAFFCC;
     color: #1E1E1E;;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-family: Krona One;
     font-size: 1.5rem;
     font-weight: 400;
-    padding: 14px 206px 14px 207px;
+    padding: 2% 20% 2% 20%;
+}
+
+.formulario button:hover {
+    background-color: #F6F6F6;
+    color:#272727;
+    scale: 105%;
 }

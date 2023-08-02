@@ -5,19 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicial</title>
+    <title>Sobre mim</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
    <img src="https://s3-alpha-sig.figma.com/img/725d/15ed/a38ff2e990b547bc55094f7e1fa523fe?Expires=1691366400&Signature=mY4FVa9fUTMzPjgP~9a6t7uKC00VZ163F~7LhLP40ss8Ebn~uoNnTQuBgFAoCHrXJiCGS2v4kuzUdSQXeQCUlRmcSlDt5d4tKLJG5fMPq2gbJHxDNJE10aau1n7QrEcKR54VQCZHtihI06Ho5NInEFGn41epJrsAWFvMa4~hQq6pZYT-k1W1WxcNqTlE6K3gl0ELW~85qJOakTc2WPATCfaFwkOzpXhIJ3nHHmOLWHOh87iMkGbPj9oylJ9-1ercy0rpDxMxsZ6wrE0J79rSonevqExM~rvOhY4JRwVuwg95CIo1Th76~kaGH9d2fQTZ3ct1ICyQV7kyoQdfrv7Nxw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="fundo de tela com bits" id="fundo">
-     <header class="cabecalho">
-            <nav class="cabecalho__menu">
-                <a class="cabecalho__menu__link" href="index.html">Home</a>
-                <a class="cabecalho__menu__link" href="about.html" style="text-decoration: underline">Sobre mim</a>
-                <a class="cabecalho__menu__link" href="ability.html">Habilidades</a>
-                <a class="cabecalho__menu__link" href="contact.html">Contato</a>
-            </nav>
-        </header>
+   <header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a class="cabecalho__menu__link" href="index.html">Home</a> </li>
+            <li class="menu__item"><a class="cabecalho__menu__link" href="about.html" style="text-decoration: underline">Sobre mim</a> </li>
+            <li class="menu__item"><a class="cabecalho__menu__link" href="ability.html">Habilidades</a></li>
+            <li class="menu__item"><a class="cabecalho__menu__link" href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <nav class="cabecalho__menu__mobile invisivel">
+        <ul class="menu__list__mobile">
+            <li class="menu__item"><a class="cabecalho__menu__link" href="index.html">Home</a> </li>
+            <li class="menu__item"><a class="cabecalho__menu__link" href="about.html" style="text-decoration: underline">Sobre mim</a> </li>
+            <li class="menu__item"><a class="cabecalho__menu__link" href="ability.html">Habilidades</a></li>
+            <li class="menu__item"><a class="cabecalho__menu__link" href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
+    <button class="button__menu"><img src="assets/menu.svg" alt="ícone de menu"></button>
+</header>
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Sobre <strong class="titulo-destaque">mim
@@ -25,15 +37,18 @@
                 <p class="apresentacao__conteudo__texto">
                     Olá! Sou Vanessa Rocha. Atualmente sou intérprete de Libras do Senac de Limeira.
                     Estou aprendendo HTML, CSS e JavaScript na Alura para buscar novas oportunidades.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, excepturi quaerat. Et inventore nisi quae reiciendis voluptatem pariatur dolorem modi fuga cupiditate facere. Placeat fugiat velit expedita molestiae voluptas ratione.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias aliquam sit fugiat voluptates odit. Corporis non nihil veniam. Hic asperiores modi dolorem laudantium et velit placeat, consectetur assumenda facilis!
                 </p>
              </section>
-            <img class="apresentacao__imagem" src="./assets/Imagem.png" alt="Foto da Vanessa Rocha">
+            <img class="apresentacao__imagem" src="./assets/Imagem.jpeg" alt="Foto da Vanessa Rocha">
         </main>
     <footer class="rodape">
         <img src="./assets/Logo Alura Include.svg" alt="Logo da Alura Include" id="rodape__alura">
         <img src="./assets/1200px-Senac_logo.svg.png" alt="Logo do Senac" id="rodape__senac">
         <p>Desenvolvido por Vanessa Rocha no programa Alura Include.</p>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
