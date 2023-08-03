@@ -247,7 +247,16 @@ body {
     #fundo {
         display: none;
     }
-
+    .apresentacao__imagem {
+        width: 14rem;
+        height: 15.1rem;
+        justify-content: center;
+        border: 2px solid var(--cor-terciaria);
+        border-radius: 1rem;
+        padding-top: 0.25rem; 
+        padding-right: 0.25rem;
+    }
+}
 
 @media(max-width:720px) {
    
