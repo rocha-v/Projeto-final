@@ -211,6 +211,10 @@ footer p{
 
 @media(max-width:720px) {
 
+    .cabecalho {
+        margin-left: 76px;
+    }
+
     .menu__list {
         gap: 2rem;
         margin-left: 0;
