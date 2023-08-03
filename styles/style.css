@@ -206,7 +206,7 @@ footer p{
 .logos{
     display: flex;
     align-items: center;
-    gap:3rem;
+    gap:4rem;
 }
 
 @media(max-width:768px) {
