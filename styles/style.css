@@ -257,6 +257,7 @@ footer p{
     }
        .rodape {  
         flex-direction: column-reverse;
+        margin: 0;
     }
 
     .rodape p{
