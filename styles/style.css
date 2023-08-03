@@ -217,14 +217,13 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 1%;
-        margin: 1%;
         align-items: center;
         justify-content: center;
+        margin:1% 2%;
    }
 
     .apresentacao__conteudo {
         width: auto;
-        margin:0 2%;
     }
     
     
