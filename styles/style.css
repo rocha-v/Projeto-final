@@ -204,7 +204,9 @@ footer p{
     text-align: justify;
 }
 .logos{
-    gap:1.5rem;
+    display: flex;
+    align-items: center;
+    gap:3rem;
 }
 
 @media(max-width:768px) {
