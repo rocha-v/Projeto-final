@@ -161,7 +161,7 @@ body {
 .apresentacao__links__navegacao:hover {
     background-color: var(--cor-terciaria);
     color: var(--cor-quaternaria);
-    scale: 1%;
+    scale: 110%;
 }
 
 .apresentacao__imagem {
