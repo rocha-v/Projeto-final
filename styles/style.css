@@ -199,6 +199,9 @@ body {
 }
 
 @media(max-width:768px) {
+    body{
+        background-color: #CAFFCC;
+    }
     header{
         padding: 0;
         position: absolute;
