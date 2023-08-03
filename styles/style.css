@@ -232,6 +232,11 @@ footer p{
         padding-left: 0;
     }
 
+    .cabecalho__menu__link {
+        font-size: 1rem;
+    }
+
+
     .apresentacao {
         flex-direction: column-reverse;
         padding: 1%;
