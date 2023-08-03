@@ -56,18 +56,18 @@ body {
 }
 
 .menu__list__mobile{
- display: none;       
+    display: none;       
 }
 
 .button__menu{
-width: 32px;
-background-color: transparent;
-border: none;
-cursor: pointer;
-position: relative;
-right: 8px;
-top: 8px;
-display: none;
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: none;
 }
 
 .apresentacao {
@@ -203,6 +203,7 @@ display: none;
         top: 0;
         right: 0;
         left: 0;
+        margin:0;
     }
 
     .cabecalho {
