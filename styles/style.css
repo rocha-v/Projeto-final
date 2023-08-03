@@ -264,17 +264,12 @@ body {
         display: none;
     }
     .apresentacao__imagem {
-        width: 60%;
-        height: 65%;
-        text-align: center;
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
-        border-radius: 1rem;
-        padding-top: 0.25rem; 
-        padding-right: 0.25rem;
-        position: relative;
     }
 }
+
+
 
 @media(max-width:720px) {
    
