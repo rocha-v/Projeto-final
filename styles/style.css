@@ -226,6 +226,7 @@ footer p{
     }
 
     .menu__list {
+        width: auto;
         gap: 2.5rem;
         margin-left: 0;
         padding-left: 0;
