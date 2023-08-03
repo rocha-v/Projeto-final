@@ -220,6 +220,7 @@ body {
         align-items: center;
         justify-content: center;
         margin:1% 2%;
+        background-color: blue;
    }
 
     .apresentacao__conteudo {
