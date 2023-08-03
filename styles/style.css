@@ -214,7 +214,6 @@ footer p{
     body{
         margin:0;
         padding: 0;
-        background-color: blue;
     }
 
     #fundo {
@@ -243,7 +242,6 @@ footer p{
         align-items: left;
         justify-content: center;
         margin:0;
-        background-color: aquamarine;
         width: auto;
    }
 
@@ -302,10 +300,10 @@ footer p{
         align-items: center;
         gap: 16px;
         padding: 1.5rem 0;
-        background-color: #6a6a6aab;
+        background-color: #33272798;
         position: absolute;
-
     }
+    
     .menu__list{
         display: none;
     }
