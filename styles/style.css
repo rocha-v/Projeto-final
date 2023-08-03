@@ -317,7 +317,9 @@ footer p{
     .logos{
         gap:1.5rem;
     }
-
+    .rodape{
+        align-items: center;
+    }
 }
 
 
