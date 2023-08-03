@@ -237,6 +237,7 @@ footer p{
         justify-content: center;
         margin:0;
         background-color: aquamarine;
+        width: 100%;
    }
 
     .apresentacao__conteudo {
