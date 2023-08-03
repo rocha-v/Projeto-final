@@ -264,7 +264,7 @@ body {
         display: none;
     }
     .apresentacao__imagem {
-        width: 24rem;
+        width: auto;
         height: 25rem;
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
