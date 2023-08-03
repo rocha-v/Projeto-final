@@ -232,7 +232,7 @@ body {
 
     
     .apresentacao__conteudo {
-        width: 100%;
+        width: auto;
         margin: 1% 5%;
         background-color: aqua;
         padding-right:0;
