@@ -166,8 +166,8 @@ body {
 
 .apresentacao__imagem {
     display: flex;
-    width: 58%;
-    height: 60%;
+    width: 48%;
+    height: 50%;
     justify-content: left;
     border: 2px solid var(--cor-terciaria);
     border-radius: 1rem;
