@@ -234,7 +234,7 @@ body {
         gap: 16px;
         padding: 1.5rem 0;
         background-color: #6a6a6aee;
-        position: relative;
+        position: absolute;
 
     }
     .menu__list{
