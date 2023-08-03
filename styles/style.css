@@ -237,7 +237,7 @@ footer p{
         justify-content: center;
         margin:0;
         background-color: aquamarine;
-        width: 100%;
+        width: auto;
    }
 
     .apresentacao__conteudo {
@@ -319,7 +319,7 @@ footer p{
     }
     .rodape{
         justify-content: center;
-        width: 100%;
+        width: auto;
         margin-right:0;
     }
 }
