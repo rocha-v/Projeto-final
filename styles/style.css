@@ -200,7 +200,7 @@ body {
 
 @media(max-width:768px) {
     body{
-        background-color: #CAFFCC;
+        margin:0;
     }
     header{
         padding: 0;
