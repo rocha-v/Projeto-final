@@ -232,6 +232,7 @@ display: none;
         gap: 16px;
         padding: 1.5rem 0;
         background-color: #6a6a6aee;
+        position: relative;
 
     }
     .menu__list{
