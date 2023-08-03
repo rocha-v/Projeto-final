@@ -213,7 +213,7 @@ footer p{
 
     .menu__list {
         gap: 2rem;
-        margin-left: 76px;
+        margin-left: 0;
         padding-left: 0;
         background-color: aqua;
     }
