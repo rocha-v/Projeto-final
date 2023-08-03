@@ -227,7 +227,6 @@ body {
         align-items: center;
         justify-content: center;
         margin:0;
-        background-color: blue;
         width: auto;
    }
 
@@ -235,13 +234,12 @@ body {
     .apresentacao__conteudo {
         width: auto;
         margin: 1% 5%;
-        background-color: aqua;
         padding-right:0 1% 0 1%;
         padding-bottom: 5%;
     }
     
     .apresentacao__conteudo__texto {
-        background-color: blueviolet;
+        
     }
 
     .menu__list__mobile{
