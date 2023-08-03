@@ -203,6 +203,9 @@ footer p{
     font-family: var(--fonte-secundaria);
     text-align: justify;
 }
+.logos{
+    gap:1.5rem;
+}
 
 @media(max-width:768px) {
     body{
