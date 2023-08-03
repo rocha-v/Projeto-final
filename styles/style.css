@@ -236,7 +236,6 @@ footer p{
         width: auto;
    }
 
-    
     .apresentacao__conteudo {
         width: auto;
         margin: 1% 5%;
@@ -275,6 +274,7 @@ footer p{
     }
     .rodape {
         width: 100%;
+        flex-direction: column;
     }
 }
 
