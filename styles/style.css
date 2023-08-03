@@ -221,10 +221,11 @@ body {
         justify-content: center;
         margin:1% 2%;
         background-color: blue;
+        width: 100%;
    }
 
     .apresentacao__conteudo {
-        width: 100%;
+        width: auto;
         background-color: aqua;
     }
     
