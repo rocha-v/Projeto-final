@@ -215,6 +215,7 @@ footer p{
         gap: 2rem;
         margin-left: 76px;
         padding-left: 0;
+        background-color: aqua;
     }
 
     .apresentacao {
