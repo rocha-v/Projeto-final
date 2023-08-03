@@ -252,7 +252,7 @@ footer p{
         border: 2px solid var(--cor-terciaria);
         position: relative;
     }
-    
+
     .menu__list__mobile{
         display: flex;
         flex-direction: column;
@@ -277,7 +277,7 @@ footer p{
     
     .rodape {
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .rodape p{
