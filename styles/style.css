@@ -223,7 +223,6 @@ footer p{
         gap: 2.5rem;
         margin-left: 0;
         padding-left: 0;
-        background-color: aqua;
     }
 
     .apresentacao {
@@ -231,15 +230,12 @@ footer p{
         padding: 1%;
         align-items: center;
         justify-content: center;
-        margin:0 0 0 60px;
-        
+        margin:0 0 0 60px;     
    }
 
     .apresentacao__conteudo {
-        
-        margin: 1% 5%;
-        padding-right:0 1% 0 1%;
-        padding-bottom: 5%;
+        margin: 1% 1%;
+        padding:0 5% 0 1%;
     }
     
     .apresentacao__conteudo__texto {
@@ -251,8 +247,7 @@ footer p{
         border: 2px solid var(--cor-terciaria);
         position: relative;
     }
-       .rodape {
-        
+       .rodape {  
         flex-direction: column-reverse;
     }
 
