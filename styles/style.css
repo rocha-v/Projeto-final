@@ -229,6 +229,7 @@ body {
     
     .apresentacao__conteudo {
         width: 100%;
+        margin: 1% 5%;
         background-color: aqua;
         padding-right:0;
     }
