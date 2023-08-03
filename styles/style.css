@@ -39,11 +39,10 @@ body {
 
 .menu__list {
     display: flex;
-    width: 47rem;
+    width: 60rem;
     margin-top: 49px;
     gap: 6.25rem;
     list-style-type:none;
-    background-color: rgb(148, 21, 21);
 }
 
 .cabecalho__menu__link {
@@ -210,6 +209,15 @@ footer p{
     gap:4rem;
 }
 
+@media(max-width:1129px){
+    .menu__list {
+        width: auto;
+        gap: 2.5rem;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
 @media(max-width:720px) {
     body{
         margin:0;
@@ -221,7 +229,7 @@ footer p{
     }
     
     .cabecalho {
-        margin-left: 5%;
+        margin-left: 2%;
     }
     
     .menu__list {
@@ -230,11 +238,6 @@ footer p{
         margin-left: 0;
         padding-left: 0;
     }
-
-    .cabecalho__menu__link {
-        font-size: 1rem;
-    }
-
 
     .apresentacao {
         flex-direction: column-reverse;
@@ -250,14 +253,9 @@ footer p{
         padding:0 5% 0 1%;
     }
     
-    .apresentacao__conteudo__texto {
-        
-    }
-
     .apresentacao__imagem {
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
-        position: relative;
         width: 80%;
     }
     
@@ -274,7 +272,7 @@ footer p{
 }
 
 
-@media(max-width:360px) {
+@media(max-width:545px) {
    
     header{
         padding: 0;
@@ -286,22 +284,29 @@ footer p{
     }
 
     .cabecalho {
-        padding: 2%;
+        padding: 5% 0;
+        margin: 0%;
     }
 
     .cabecalho__menu {
         justify-content: center;
-        position: relative;
     }
   
+    .cabecalho__menu__link {
+        font-size: 1rem;
+    }
+
     .menu__list__mobile{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
         padding: 1.5rem 0;
-        background-color: #33272798;
+        background-color:#2b2b2be5;
+        border-bottom: 2px solid var(--cor-terciaria);
         position: absolute;
+        width: 100%;
+        list-style-type:none;
     }
 
     .menu__list{
@@ -311,21 +316,7 @@ footer p{
     .button__menu{
         display: initial;
     }
-
-    #rodape__alura{
-        width: 30%;
-        height: 25%;
-    }
-    
-    #rodape__senac{
-        width: 30%;
-        height: 25%;
-    }
-    
-    .logos{
-        gap:1.5rem;
-    }
-    
+            
 }
 
 
