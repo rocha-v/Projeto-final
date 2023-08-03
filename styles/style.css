@@ -247,6 +247,12 @@ footer p{
         
     }
 
+    .apresentacao__imagem {
+        justify-content: center;
+        border: 2px solid var(--cor-terciaria);
+        position: relative;
+    }
+    
     .menu__list__mobile{
         display: flex;
         flex-direction: column;
@@ -268,11 +274,7 @@ footer p{
     #fundo {
         display: none;
     }
-    .apresentacao__imagem {
-        justify-content: center;
-        border: 2px solid var(--cor-terciaria);
-        position: relative;
-    }
+    
     .rodape {
         width: 100%;
         flex-direction: column;
