@@ -210,7 +210,11 @@ footer p{
 }
 
 @media(max-width:720px) {
-
+    
+    #fundo {
+        display: none;
+    }
+    
     .cabecalho {
         margin-left: 76px;
     }
@@ -228,11 +232,11 @@ footer p{
         align-items: center;
         justify-content: center;
         margin:0 0 0 60px;
-        width: auto;
+        
    }
 
     .apresentacao__conteudo {
-        width: auto;
+        
         margin: 1% 5%;
         padding-right:0 1% 0 1%;
         padding-bottom: 5%;
@@ -247,12 +251,8 @@ footer p{
         border: 2px solid var(--cor-terciaria);
         position: relative;
     }
-    #fundo {
-        display: none;
-    }
-    
-    .rodape {
-        width: auto;
+       .rodape {
+        
         flex-direction: column-reverse;
     }
 
