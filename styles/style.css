@@ -214,7 +214,7 @@ footer p{
         margin:0;
         padding: 0;
     }
-    
+
     #fundo {
         display: none;
     }
@@ -232,7 +232,7 @@ footer p{
     .apresentacao {
         flex-direction: column-reverse;
         padding: 1%;
-        align-items: center;
+        align-items: left;
         justify-content: center;
         margin:0 0 0 60px;     
    }
