@@ -271,6 +271,7 @@ footer p{
     .apresentacao__imagem {
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
+        position: relative;
     }
     .rodape {
         width: 100%;
