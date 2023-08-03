@@ -253,7 +253,7 @@ footer p{
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
         position: relative;
-        width: 100%;
+        width: 80%;
     }
        .rodape {  
         flex-direction: column-reverse;
@@ -292,7 +292,7 @@ footer p{
         align-items: center;
         gap: 16px;
         padding: 1.5rem 0;
-        background-color: #6a6a6aee;
+        background-color: #6a6a6aad;
         position: absolute;
 
     }
