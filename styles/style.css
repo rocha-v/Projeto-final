@@ -64,7 +64,7 @@ width: 32px;
 background-color: transparent;
 border: none;
 cursor: pointer;
-position: absolute;
+position: relative;
 right: 8px;
 top: 8px;
 display: none;
