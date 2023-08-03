@@ -292,7 +292,7 @@ footer p{
         align-items: center;
         gap: 16px;
         padding: 1.5rem 0;
-        background-color: #6a6a6aad;
+        background-color: #6a6a6aab;
         position: absolute;
 
     }
@@ -303,6 +303,26 @@ footer p{
     .button__menu{
         display: initial;
     }
+
+    .rodape p{
+        width: 30%;
+        font-size: 0.5rem;
+    }
+
+    #rodape__alura{
+        width: 10%;
+        height: 6%;
+    }
+    
+    #rodape__senac{
+        width: 10%;
+        height: 6%;
+    }
+    
+    .logos{
+        gap:1.5rem;
+    }
+
 }
 
 
