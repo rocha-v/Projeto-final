@@ -198,6 +198,11 @@ body {
     width: 7.5rem;
     height: 4rem;
 }
+footer p{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+}
 
 @media(max-width:768px) {
     body{
