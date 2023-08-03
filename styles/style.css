@@ -210,6 +210,10 @@ footer p{
 }
 
 @media(max-width:720px) {
+    body{
+        margin:0;
+        padding: 0;
+    }
     
     #fundo {
         display: none;
@@ -259,10 +263,7 @@ footer p{
 
 
 @media(max-width:360px) {
-    body{
-        margin:0;
-        padding: 0;
-    }
+   
     header{
         padding: 0;
         position: absolute;
