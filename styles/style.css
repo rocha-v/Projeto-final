@@ -259,11 +259,13 @@ footer p{
     .rodape {  
         flex-direction: column-reverse;
         justify-content: center;
+        width: auto;
     }
 
     .rodape p{
         font-size: 1rem;
     }
+
 }
 
 
@@ -318,11 +320,7 @@ footer p{
     .logos{
         gap:1.5rem;
     }
-    .rodape{
-        justify-content: center;
-        width: auto;
-        margin-right:0;
-    }
+    
 }
 
 
