@@ -217,6 +217,7 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
+        position: relative;
     }
 
     .apresentacao {
@@ -226,7 +227,7 @@ body {
         justify-content: center;
         margin:0;
         background-color: blue;
-        width: 100%;
+        width: auto;
    }
 
     
@@ -240,7 +241,7 @@ body {
     .apresentacao__conteudo__texto {
         background-color: blueviolet;
     }
-    
+
     .menu__list__mobile{
         display: flex;
         flex-direction: column;
