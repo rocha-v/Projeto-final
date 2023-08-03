@@ -237,7 +237,10 @@ body {
         padding-right:0;
     }
     
-   
+    .apresentacao__conteudo__texto {
+        background-color: blueviolet;
+    }
+    
     .menu__list__mobile{
         display: flex;
         flex-direction: column;
