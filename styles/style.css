@@ -255,8 +255,10 @@ footer p{
         position: relative;
         width: 80%;
     }
-       .rodape {  
+    
+    .rodape {  
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .rodape p{
