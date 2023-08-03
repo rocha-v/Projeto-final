@@ -131,6 +131,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    margin-bottom: 2%;
 }
 
 .apresentacao__links__subtitulo {
@@ -224,12 +225,14 @@ body {
         width: 100%;
    }
 
+    
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
         background-color: aqua;
+        padding-right:0;
     }
     
-    
+   
     .menu__list__mobile{
         display: flex;
         flex-direction: column;
