@@ -216,8 +216,8 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 2%;
-        margin: 0;
+        padding: 1%;
+        margin: 1%;
         align-items: center;
         justify-content: center;
    }
@@ -225,6 +225,7 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+    
     
     .menu__list__mobile{
         display: flex;
@@ -248,8 +249,8 @@ body {
         display: none;
     }
     .apresentacao__imagem {
-        width: 2rem;
-        height: 3rem;
+        width: 10rem;
+        height: 11rem;
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
         border-radius: 1rem;
