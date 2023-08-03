@@ -276,6 +276,11 @@ footer p{
         width: 100%;
         flex-direction: column;
     }
+
+    .rodape p{
+        width: 50%;
+        font-size: 1rem;
+    }
 }
 
 
