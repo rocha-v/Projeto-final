@@ -222,9 +222,9 @@ footer p{
     }
     
     .cabecalho {
-        margin-left: 76px;
+        margin-left: 5%;
     }
-
+    
     .menu__list {
         width: auto;
         gap: 2.5rem;
