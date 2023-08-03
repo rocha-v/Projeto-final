@@ -236,7 +236,7 @@ body {
         width: auto;
         margin: 1% 5%;
         background-color: aqua;
-        padding-right:0;
+        padding-right:0 1%;
         padding-bottom: 5%;
     }
     
