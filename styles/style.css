@@ -249,7 +249,7 @@ body {
         display: none;
     }
     .apresentacao__imagem {
-        width: 20rem;
+        width: 24rem;
         height: 25rem;
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
