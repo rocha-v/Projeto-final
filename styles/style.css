@@ -257,7 +257,6 @@ footer p{
     }
        .rodape {  
         flex-direction: column-reverse;
-        margin: 0;
     }
 
     .rodape p{
@@ -321,6 +320,7 @@ footer p{
     .rodape{
         justify-content: center;
         width: 100%;
+        margin-right:0;
     }
 }
 
