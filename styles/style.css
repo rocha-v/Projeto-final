@@ -318,7 +318,8 @@ footer p{
         gap:1.5rem;
     }
     .rodape{
-        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 }
 
