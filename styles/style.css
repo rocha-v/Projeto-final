@@ -213,6 +213,7 @@ footer p{
 
     .menu__list {
         gap: 2rem;
+        margin-left: 1%;
     }
 
     .apresentacao {
