@@ -249,8 +249,8 @@ body {
         display: none;
     }
     .apresentacao__imagem {
-        width: 10rem;
-        height: 11rem;
+        width: 20rem;
+        height: 25rem;
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
         border-radius: 1rem;
