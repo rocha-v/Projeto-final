@@ -39,11 +39,11 @@ body {
 
 .menu__list {
     display: flex;
-    width: auto;
+    width: 47rem;
     margin-top: 49px;
     gap: 6.25rem;
     list-style-type:none;
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 128);
 }
 
 .cabecalho__menu__link {
