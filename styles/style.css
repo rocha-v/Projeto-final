@@ -28,6 +28,7 @@ body {
     background-color: var(--cor-primaria);
     position:absolute; top:0px; left:80px;
     width: 90%;
+    height: 90%;
     opacity: 3%;
     filter: grayscale(40%);
 }
