@@ -70,6 +70,7 @@ body {
     right: 8px;
     top: 8px;
     display: none;
+    z-index: 4;
 }
 
 .apresentacao {
