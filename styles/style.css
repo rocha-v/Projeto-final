@@ -14,7 +14,7 @@
     padding: 0;
 }
 
-.invisivel{
+.invisivel {
     display: none;
 }
 
@@ -26,7 +26,9 @@ body {
 
 #fundo {
     background-color: var(--cor-primaria);
-    position:absolute; top:0px; left:80px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
     width: 90%;
     opacity: 3%;
     filter: grayscale(40%);
@@ -42,7 +44,7 @@ body {
     width: 60rem;
     margin-top: 49px;
     gap: 6.25rem;
-    list-style-type:none;
+    list-style-type: none;
 }
 
 .cabecalho__menu__link {
@@ -55,11 +57,11 @@ body {
     font-size: 1.5rem;
 }
 
-.menu__list__mobile{
-    display: none;       
+.menu__list__mobile {
+    display: none;
 }
 
-.button__menu{
+.button__menu {
     width: 32px;
     background-color: transparent;
     border: none;
@@ -68,7 +70,6 @@ body {
     right: 8px;
     top: 8px;
     display: none;
-    z-index: 4;
 }
 
 .apresentacao {
@@ -102,13 +103,15 @@ body {
 @keyframes piscar {
     0% {
         opacity: 1;
-      }
-      50% {
+    }
+
+    50% {
         opacity: 0;
-      }
-      100% {
+    }
+
+    100% {
         opacity: 1;
-      }
+    }
 }
 
 .apresentacao__conteudo {
@@ -172,7 +175,7 @@ body {
     justify-content: left;
     border: 2px solid var(--cor-terciaria);
     border-radius: 1rem;
-    padding-top: 0.25rem; 
+    padding-top: 0.25rem;
     padding-right: 0.25rem;
     margin-right: 5%;
 }
@@ -186,31 +189,42 @@ body {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    gap:2rem;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
-#rodape__alura{
+#rodape__alura {
     width: 8.125rem;
     height: 4.625rem;
 }
 
-#rodape__senac{
+#rodape__senac {
     width: 7.5rem;
     height: 4rem;
 }
-footer p{
+
+footer p {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     text-align: justify;
 }
-.logos{
+
+.logos {
     display: flex;
     align-items: center;
-    gap:4rem;
+    gap: 4rem;
 }
 
-@media(max-width:1129px){
+.rodape__destaque {
+    font-weight: normal;
+}
+
+#botao__voltar {
+    position: relative;
+    margin: 0 15%;
+}
+
+@media(max-width:1129px) {
     .menu__list {
         width: auto;
         gap: 2.5rem;
@@ -220,19 +234,19 @@ footer p{
 }
 
 @media(max-width:720px) {
-    body{
-        margin:0;
+    body {
+        margin: 0;
         padding: 0;
     }
 
     #fundo {
         display: none;
     }
-    
+
     .cabecalho {
         margin-left: 2%;
     }
-    
+
     .menu__list {
         width: auto;
         gap: 2.5rem;
@@ -245,43 +259,55 @@ footer p{
         padding: 1%;
         align-items: left;
         justify-content: center;
-        margin:0;
+        margin: 0;
         width: auto;
-   }
+    }
 
     .apresentacao__conteudo {
         margin: 1% 1%;
-        padding:0 5% 0 1%;
+        padding: 0 5% 0 1%;
+        width: 80%;
     }
-    
+
     .apresentacao__imagem {
         justify-content: center;
         border: 2px solid var(--cor-terciaria);
-        width: 80%;
+        width: 70%;
     }
-    
-    .rodape {  
+    #lista {
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+
+    #contato {
+        margin-left: 3rem;
+    }
+    .rodape {
         flex-direction: column-reverse;
         justify-content: center;
         width: auto;
     }
 
-    .rodape p{
+    .rodape p {
         font-size: 1rem;
+        text-align: center;
     }
 
+    .rodape__destaque {
+        font-weight: bold;
+    }
 }
 
 
-@media(max-width:545px) {
-   
-    header{
+@media(max-width:585px) {
+
+    header {
         padding: 0;
         position: absolute;
         top: 0;
         right: 0;
         left: 0;
-        margin:0;
+        margin: 0;
     }
 
     .cabecalho {
@@ -292,34 +318,42 @@ footer p{
     .cabecalho__menu {
         justify-content: center;
     }
-  
+
     .cabecalho__menu__link {
         font-size: 1rem;
     }
 
-    .menu__list__mobile{
+    .menu__list__mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
         padding: 1.5rem 0;
-        background-color:#2b2b2be5;
+        background-color: #2b2b2be5;
         border-bottom: 2px solid var(--cor-terciaria);
         position: absolute;
         width: 100%;
-        list-style-type:none;
+        list-style-type: none;
         z-index: 3;
     }
 
-    .menu__list{
+    .menu__list {
         display: none;
     }
 
-    .button__menu{
+    .button__menu {
         display: initial;
     }
-            
+
+    .logos {
+        gap: 2rem;
+    }
+
+
 }
 
-
-
+@media(max-width:412px) {
+    .apresentacao__conteudo__texto {
+        text-align: center;
+    }
+}
