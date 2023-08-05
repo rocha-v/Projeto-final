@@ -1,0 +1,13 @@
+.topico__principal{
+    color: #F6F6F6;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    list-style: square inside;
+}    
+
+.topico__secundario{
+    color:#CAFFCC;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1rem;
+    list-style:square outside;
+}
