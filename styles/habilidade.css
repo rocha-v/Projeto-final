@@ -2,7 +2,8 @@
     color: #F6F6F6;
     font-family:'Montserrat', sans-serif;
     font-size: 1.5rem;
-    list-style: square inside;
+    list-style: square outside;
+    padding-top: 1rem;
 }    
 
 .topico__secundario{
