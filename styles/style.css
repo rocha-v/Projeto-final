@@ -124,6 +124,15 @@ body {
     margin-right: 0;
 }
 
+.typedtext {
+    font-size: 1.25rem;
+    font-family: var(--fonte-secundaria);
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: var(--cor-secundaria);
+}
+
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
@@ -176,9 +185,16 @@ body {
     justify-content: left;
     border: 2px solid var(--cor-terciaria);
     border-radius: 1rem;
-    padding-top: 0.25rem;
-    padding-right: 0.25rem;
+    padding: 0.25rem;
     margin-right: 5%;
+}
+
+.fotos img {
+    width: 60%;
+}
+
+.apresentacao__imagem__duplicada {
+    display: none;
 }
 
 .rodape {
@@ -232,6 +248,15 @@ footer p {
         margin-left: 0;
         padding-left: 0;
     }
+
+    .fotos img {
+        width: 90%;
+    }
+
+    .logos {
+        gap: 2rem;
+    }
+
 }
 
 @media(max-width:720px) {
@@ -275,6 +300,7 @@ footer p {
         border: 2px solid var(--cor-terciaria);
         width: 70%;
     }
+
     #lista {
         margin-left: 1.5rem;
         width: 90%;
@@ -283,6 +309,7 @@ footer p {
     #contato {
         margin-left: 3rem;
     }
+
     .rodape {
         flex-direction: column-reverse;
         justify-content: center;
@@ -296,6 +323,70 @@ footer p {
 
     .rodape__destaque {
         font-weight: bold;
+    }
+
+    .container__animacao {
+        overflow: hidden;
+        width: 55%;
+    }
+
+    .fotos {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        width: 500%;
+        animation-name: animacao;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animacao {
+        0% {
+            margin-left: 0;
+        }
+
+        20% {
+            margin-left: 0;
+        }
+
+        25% {
+            margin-left: -100%;
+        }
+
+        45% {
+            margin-left: -100%;
+        }
+
+        50% {
+            margin-left: -200%;
+        }
+
+        70% {
+            margin-left: -200%;
+        }
+
+        75% {
+            margin-left: -300%;
+        }
+
+        95% {
+            margin-left: -300%;
+        }
+
+        100% {
+            margin-left: -400%;
+        }
+    }
+
+    .fotos img {
+        margin: 0;
+        width: 19.9%;
+        height: 17rem;
+        padding: 0%;
+    }
+
+    .apresentacao__imagem__duplicada {
+        display: initial;
     }
 }
 
@@ -346,10 +437,10 @@ footer p {
         display: initial;
     }
 
-    .logos {
-        gap: 2rem;
+    .container__animacao {
+        overflow: hidden;
+        width: 65%;
     }
-
 
 }
 

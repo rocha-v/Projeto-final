@@ -1,0 +1,15 @@
+
+  .typedtext {
+    animation: blinkTextCursor 800ms steps(44) infinite normal;
+    height: 40px;
+    display: block;
+  }
+
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: #F6F6F6;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
