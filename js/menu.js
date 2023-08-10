@@ -6,7 +6,7 @@ let isMenuOpen = false;
 buttonMenu.addEventListener('click', function(){
     isMenuOpen ? menuMobile.classList.add('invisivel'):menuMobile.classList.remove('invisivel')
     
-    isMenuOpen ? buttonMenu.children[0].setAttribute('src','../assets/menu.svg') :buttonMenu.children[0].setAttribute('src','../assets/Close.svg');
+    isMenuOpen ? buttonMenu.children[0].setAttribute('src','../assets/menu.svg') :buttonMenu.children[0].setAttribute('src','/assets/Close.svg');
 
     isMenuOpen =! isMenuOpen;
 })
