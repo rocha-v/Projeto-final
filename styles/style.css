@@ -25,13 +25,13 @@ body {
 }
 
 #fundo {
-    background-color: var(--cor-primaria);
     position: absolute;
     top: 0px;
     left: 80px;
     width: 90%;
-    opacity: 3%;
+    opacity: 70%;
     filter: grayscale(40%);
+    background-color: var(--cor-primaria);
 }
 
 .cabecalho {
