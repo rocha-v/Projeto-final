@@ -484,6 +484,7 @@ footer p {
 
     .rodape {
         flex-direction: column;
+        padding-top:10px;
     }
 
     .typedtext {
