@@ -34,7 +34,7 @@
         </nav>
         <button class="button__menu"><img src="assets/menu.svg" alt="ícone de menu"></button>
     </header>
-    <main class="apresentacao">
+    <main class="apresentacao apresentacao__altura">
         <section class="apresentacao__conteudo" id="contato">
 
             <h1 class="apresentacao__conteudo__titulo" id="nome-autor"> <strong class="titulo-destaque">
@@ -51,12 +51,13 @@
                 <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
 
                 <input type="hidden" name="_next" value="https://projeto-final-ten.vercel.app/email-enviado.html">
-                <button type="submit">Enviar</button>
+                <button type="submit" class="toca_som">Enviar</button>
             </form>
-
 
         </section>
         <img class="apresentacao__imagem" src="./assets/Imagem.jpeg" alt="Foto da Vanessa Rocha">
+        <audio src="sound/short-success-sound-glockenspiel-treasure-video-game-6346.mp3" id="som_botao"></audio>
+        <script src="js/som.js"></script>
     </main>
     <footer class="rodape">
         <div class="logos">
