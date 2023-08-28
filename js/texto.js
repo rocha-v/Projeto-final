@@ -1,5 +1,5 @@
 function typingEffect() {
-    const contactTexts = shuffleArray(['"É preciso ter caos e frenesi dentro de si para dar à luz uma estrela dançante." (Friedrich Nietzsche)', '"Nunca existiu uma grande inteligência sem uma veia de loucura." (Aristóteles)', '"Tenho em mim todos os sonhos do mundo." (Fernando Pessoa)']);
+    const contactTexts = shuffleArray(['"É preciso ter caos e frenesi dentro de si para dar à luz uma estrela dançante." (Nietzsche)', '"Nunca existiu uma grande inteligência sem uma veia de loucura." (Aristóteles)', '"Tenho em mim todos os sonhos do mundo." (Fernando Pessoa)']);
     const typedtext = document.getElementsByClassName("typedtext")[0];
     let removing = false;
     let idx = char = 0;
